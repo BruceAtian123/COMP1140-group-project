@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://gitlab.cecs.anu.edu.au/u6683369/comp1140-ass2-thu14v -->
+
+<h4 dir="auto">
+<a id="user-content-rules" class="anchor" href="https://gitlab.cecs.anu.edu.au/u6683369/comp1140-ass2-thu14v#rules" aria-hidden="true"></a>Rules</h4>
+
+<p dir="auto">The following rules are taken from Nick Bentley's published game rules.
+In case of any ambiguity, the published rules are definitive.</p>
+
+<ol dir="auto">
+<li>To start, Player 1 places a stone of either of her colors on any empty space.</li>
+<li>From then on, starting with Player 2, the players take turns. 
+
+<ul>
+<li>On your turn, you must place one stone of either of your colors, or one stone of each of your colors. Alternatively, you may pass your turn.</li>
+<li>You can place your stones on any empty spaces, with one restriction: you must place them such that, at the end of your turn (after you have captured all fenced enemy blooms), none of your blooms is fenced.</li>
+<li>After placing your stones, capture all fenced enemy blooms. Return the captured stones to your opponent.</li>
+</ul>
+</li>
+<li>The game ends when one player resigns or when both players pass consecutively. In the latter case, your score is the number of stones you have on the board plus the number of spaces in your territory. The player with the highest score wins. In the event of a tie, the player who passed first in the game wins.</li>
+</ol>
+
+<h5 dir="auto">
+<a id="user-content-definitions" class="anchor" href="https://gitlab.cecs.anu.edu.au/u6683369/comp1140-ass2-thu14v#definitions" aria-hidden="true"></a>Definitions</h5>
+
+<p dir="auto">1. A <em>bloom</em> is a connected group of pieces of the same colour.</p>
+
+<p dir="auto">2. A bloom is <em>fenced</em> if it is completely surrounded by pieces of different colours.</p>
+
+<p dir="auto">3. If one or more empty spaces are completely surrounded by one player's pieces (of either colour), those spaces belong to the player's <em>territory</em>.</p>
+
+<p dir="auto">4. Players take it in turn to place pieces on the board so as to control territory.
+On the first turn, the first player places a single piece anywhere on the board.
+On subsequent turns, each player chooses to play either a single piece, or one piece of each of their colours, on empty spaces.
+A piece may be placed on any empty square so long as at the end of the player's turn, the bloom of which it is a part is not fenced (by pieces of any other colour, including the player's own pieces).
+After placement is complete, any of the opponent's blooms which are now fenced are removed from the board.</p>
+
+<h4 dir="auto">
+    <a id="user-content-rules" class="anchor" href="https://gitlab.cecs.anu.edu.au/u6683369/comp1140-ass2-thu14v#rules" aria-hidden="true"></a>How to play</h4>
+
+<p dir="auto">1. To play this game,first select the type of the move that you want to take(single move, normal move, skip).
+Then select color that you want to place(a-red,b-yellow,c-green,d-blue).Each time remember to click the type of the move first and then the color, finally click the position on the board which is the place that you want to place this stone on.</p>
+
+<p dir="auto">2. For normal move I need to specify that you need to select normal move and then select one color finally place the stone onto board, and then don't need to select type of the moves again, just click on the second color that you want to place and click on the board. In this way, the stone is placed.</p>
+
+<p dir="auto">3. Remember the sequence(types of move,color then click the position that you would like to place), if you don't follow this sequence, bug will occurs and you need to exit it and play it again.</p>

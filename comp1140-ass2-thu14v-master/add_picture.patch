@@ -1,0 +1,55 @@
+Index: admin/C-originality.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- admin/C-originality.md	(date 1535507786000)
++++ admin/C-originality.md	(date 1535507787000)
+@@ -4,6 +4,10 @@
+ 
+ * The code in class <...> is based on a solution we found when researching the problem (URL provided in source code comments)
+ 
+-*  ....
++* The code in Task6 in class BloomGame is based on a solution we found when researching the problem (URL provided in source code comments)
++   Task6
++   - sort an Arraylist 
++   - concat integer arraylist to a string
+ 
+-Signed: Mary Jones (u2345678), Bob Smith (u3456789), and Sue Black (u0123456)
++
++Signed: Yihan Zhou(u6684916), Jinming Dong (u6683369)
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(date 1535507786000)
++++ .idea/misc.xml	(date 1535507822000)
+@@ -3,7 +3,7 @@
+   <component name="ProjectKey">
+     <option name="state" value="project://e79810c8-c5c8-43b1-b19c-90c1f4095425" />
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="10.0" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: admin/C-contribution.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- admin/C-contribution.md	(date 1535507786000)
++++ admin/C-contribution.md	(date 1535507787000)
+@@ -1,7 +1,6 @@
+ We declare that the work toward our submission of Stage C was distributed among the group members as follows:
+ 
+-* u2345678 30
+-* u3456789 40
+-* u0234567 30
++* u6683369 50
++* u6684916 50
+ 
+-Signed: Mary Jones (u2345678), Bob Smith (u3456789), and Sue Black (u0234567)
++Signed: Jinming Dong (u6683369), Yihan Zhou (u6684916)
